@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Product service is going to start...");
 		SpringApplication.run(ProductServiceApplication.class, args);
+		System.out.println("Product service started...");
 	}
 
 }
